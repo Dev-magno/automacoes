@@ -12,9 +12,9 @@ def enviar_email():
     # Criar mensagem com assunto, remetente, destinatário e senha
     msg = email.message.Message()
     msg['Subject'] = 'Assunto'
-    msg['Form'] = 'magnolopes1212@gmail.com'
-    msg['To'] = 'marcelofiquene@hotmail.com'
-    password = 'ujwe httq dkby tgvy'
+    msg['Form'] = 'joa@gmail.com'
+    msg['To'] = 'pedro@hotmail.com'
+    password = 'senha_do_app_aqui'
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(corpo_email)
 
